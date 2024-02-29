@@ -2,22 +2,16 @@
  * Copyright (c) Microsoft Corporation. All rights reserved.
  * Licensed under the MIT License. See LICENSE in the project root for license information.
  *---------------------------------------------------------------------------------------*/
-
 package com.mycompany.app;
+
+import java.util.Scanner;
+
+import com.mycompany.app.week1.Exercise1;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello Remote World!");
-        //if
-        int time = 22;
-        if (time < 10) {
-          System.out.println("Good morning.");
-        } else if (time < 18) {
-          System.out.println("Good day.");
-        }  else {
-          System.out.println("Good evening.");
-        }
-        
-
-    }
-}
+        Exercise1 exercise1 = new Exercise1();
+        exercise1.name = "";;
+    }  
+  }
+  
