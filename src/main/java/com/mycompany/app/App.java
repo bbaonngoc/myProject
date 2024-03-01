@@ -15,10 +15,10 @@ import com.mycompany.app.week1.Exercise4;
 public class App {
     public static void main(String[] args) {
         Exercise1 ex = new Exercise1();
-      
+        Exercise4 ex = new Exercise4();
          //String name ="Hello Quynh va Co Thu";
         // ex.saveName(name);//Quynh code logic save Name vao FullName trong class Exercise1()
         ex.testIf();
-    }   ex.testWhile();
+    }   ex.testWh();
   }
   
