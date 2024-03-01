@@ -13,10 +13,9 @@ import com.mycompany.app.week1.Exercise1;
 public class App {
     public static void main(String[] args) {
         Exercise1 ex = new Exercise1();
-       // Exercise1 exercise1 = new Exercise1();
-       // exercise1.name = "";
-         String name ="Hello";
-         ex.setName(name);
+      
+         String name ="Hello Quynh va Co Thu";
+         ex.saveName(name);//Quynh code logic save Name vao FullName trong class Exercise1()
         System.out.println(ex.FullName);
     }  
   }

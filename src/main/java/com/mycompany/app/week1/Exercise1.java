@@ -4,9 +4,9 @@ public class Exercise1 {
     public String FullName;
     //method: input name; implementation: setName
     //call/revoke name
-    Exercise1(){}
+    public Exercise1(){}
    // Exercise1(String name){}
-    public void setName(String name){
+    public void saveName(String name){
         this.FullName =name;
        
 
