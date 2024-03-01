@@ -14,9 +14,9 @@ public class App {
     public static void main(String[] args) {
         Exercise1 ex = new Exercise1();
       
-         String name ="Hello Quynh va Co Thu";
-         ex.saveName(name);//Quynh code logic save Name vao FullName trong class Exercise1()
-        System.out.println(ex.FullName);
+         //String name ="Hello Quynh va Co Thu";
+        // ex.saveName(name);//Quynh code logic save Name vao FullName trong class Exercise1()
+        ex.testIf();
     }  
   }
   
