@@ -8,6 +8,7 @@ public class Exercise1 {
    // Exercise1(String name){}
     public void setName(String name){
         this.FullName =name;
+       
 
     }
     
