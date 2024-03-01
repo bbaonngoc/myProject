@@ -2,9 +2,23 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Exercise1",
+            "name": "Ex3",
             "request": "launch",
-            "mainClass": "com.mycompany.app.week1.Exercise1",
+            "mainClass": "com.mycompany.app.week1.Ex3",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "Ex2",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.week1.Ex2",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.week1.Main",
             "projectName": "my-app"
         },
         {
