@@ -5,6 +5,8 @@
 package com.mycompany.app;
 
 import java.util.Scanner;
+import java.util.*;
+import java.io.*;
 import com.mycompany.app.week1.Exercise1;
 
 
