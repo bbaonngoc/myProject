@@ -15,7 +15,9 @@ public class App {
         Exercise1 ex = new Exercise1();
        // Exercise1 exercise1 = new Exercise1();
        // exercise1.name = "";
-        System.out.println("test");
+         String name ="Hello";
+         ex.setName(name);
+        System.out.println(ex.FullName);
     }  
   }
   
