@@ -5,14 +5,15 @@
 package com.mycompany.app;
 
 import java.util.Scanner;
-
 import com.mycompany.app.week1.Exercise1;
 
 
 public class App {
     public static void main(String[] args) {
-        Exercise1 exercise1 = new Exercise1();
-        exercise1.name = "";
+        Exercise1 ex = new Exercise1();
+       // Exercise1 exercise1 = new Exercise1();
+       // exercise1.name = "";
+        System.out.println("test");
     }  
   }
   
