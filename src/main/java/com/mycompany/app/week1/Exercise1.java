@@ -5,7 +5,7 @@ public class Exercise1 {
     //method: input name; implementation: setName
     //call/revoke name
     Exercise1(){}
-    Exercise1(String name){}
+   // Exercise1(String name){}
     public void setName(String name){
         this.FullName =name;
 
