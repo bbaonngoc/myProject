@@ -11,14 +11,19 @@ import com.mycompany.app.week1.Exercise1;
 import com.mycompany.app.week1.Ex2;
 import com.mycompany.app.week1.Ex3;
 import com.mycompany.app.week1.Exercise4;
+import com.mycompany.app.week1.exTestSwitch;
 
 public class App {
     public static void main(String[] args) {
         Exercise1 ex = new Exercise1();
         Exercise4 ex2 = new Exercise4();
-         //String name ="Hello Quynh va Co Thu";
-        // ex.saveName(name);//Quynh code logic save Name vao FullName trong class Exercise1()
+        exTestSwitch ex5 = new exTestSwitch();
+        //String name ="Hello Quynh va Co Thu";
+        // ex.saveName(name);
+        //Quynh code logic save Name vao FullName trong class Exercise1();
         ex.testIf();
-    }   ex2.testWh();
+        ex2.testWh();
+        ex5.testSwitch();
   }
+}
   
