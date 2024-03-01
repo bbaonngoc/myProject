@@ -9,6 +9,7 @@ import java.util.*;
 import java.io.*;
 import com.mycompany.app.week1.Exercise1;
 import com.mycompany.app.week1.Ex2;
+import com.mycompany.app.week1.Ex3;
 
 
 public class App {
