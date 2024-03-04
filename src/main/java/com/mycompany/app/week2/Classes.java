@@ -1,9 +1,9 @@
 package com.mycompany.app.week2;
 
-public class JavaClasses {
+public class Classes {
     int x = 10;
     public void myObj() {
-        JavaClasses myObj = new JavaClasses();   
+        Classes myObj = new Classes();   
         myObj.x = 25;
         System.out.println(myObj.x);
     }
