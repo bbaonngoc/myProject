@@ -13,6 +13,7 @@ import com.mycompany.app.week1.Ex3;
 import com.mycompany.app.week1.Exercise4;
 import com.mycompany.app.week1.exTestSwitch;
 import com.mycompany.app.week1.exBreakContinue;
+import com.mycompany.app.week2.JavaMethods;
 
 public class App {
     public static void main(String[] args) {
@@ -21,14 +22,15 @@ public class App {
         exTestSwitch ex5 = new exTestSwitch();
         exBreakContinue ex6 = new exBreakContinue();
         exBreakContinue exc6 = new exBreakContinue();
-        //String name ="Hello Quynh va Co Thu"
-        // ex.saveName(name)
-        //Quynh code logic save Name vao FullName trong class Exercise1()
+        JavaMethods method = new JavaMethods();
+
         ex.testIf();
         ex2.testWh();
         ex5.testSwitch();
         ex6.testBreak();
         exc6.testContinue();
+        method.myMethod();
+
 
   }
 }
