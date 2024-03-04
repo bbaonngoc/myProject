@@ -14,6 +14,7 @@ import com.mycompany.app.week1.Exercise4;
 import com.mycompany.app.week1.exTestSwitch;
 import com.mycompany.app.week1.exBreakContinue;
 import com.mycompany.app.week2.JavaMethods;
+import com.mycompany.app.week2.ex1Code1;
 
 public class App {
     public static void main(String[] args) {
