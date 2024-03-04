@@ -14,6 +14,7 @@ import com.mycompany.app.week1.Exercise4;
 import com.mycompany.app.week1.exTestSwitch;
 import com.mycompany.app.week1.exBreakContinue;
 import com.mycompany.app.week2.JavaMethods;
+import com.mycompany.app.week2.JavaClasses;
 
 public class App {
     public static void main(String[] args) {
@@ -23,6 +24,7 @@ public class App {
         exBreakContinue ex6 = new exBreakContinue();
         exBreakContinue exc6 = new exBreakContinue();
         JavaMethods method = new JavaMethods();
+        JavaClasses myObj = new JavaClasses();
 
         ex.testIf();
         ex2.testWh();
@@ -30,6 +32,7 @@ public class App {
         ex6.testBreak();
         exc6.testContinue();
         method.myMethod();
+        myObj.myObj();
 
 
   }
