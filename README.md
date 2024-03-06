@@ -7,6 +7,7 @@
 ### Misson
 1. Assignment Week 1
 2. Assignment Week 2
+3. Assignment Week 3
 
 ### Lecturer's Feedback
 
