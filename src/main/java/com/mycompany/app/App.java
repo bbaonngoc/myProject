@@ -24,6 +24,7 @@ public class App {
         exBreakContinue ex6 = new exBreakContinue();
         exBreakContinue exc6 = new exBreakContinue();
         JavaMethods method = new JavaMethods();
+        ex1Code1 book = new ex1Code1();
 
         ex.testIf();
         ex2.testWh();
