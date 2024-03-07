@@ -10,20 +10,15 @@ import com.mycompany.app.week1.Ex3;
 import com.mycompany.app.week1.Exercise4;
 import com.mycompany.app.week1.exTestSwitch;
 import com.mycompany.app.week1.exBreakContinue;
-<<<<<<< HEAD
-import com.mycompany.app.week2.Code3.Methods;
-import com.mycompany.app.week2.Code3.Classes;
-=======
 
-import com.mycompany.app.week2.JavaMethods;
 import com.mycompany.app.week2.Code1.*;
-import com.mycompany.app.week2.Methods;
-import com.mycompany.app.week2.Classes;
->>>>>>> 324aa1ebc9593917f62bd04979ed8aa8fcdd1024
+import com.mycompany.app.week2.Code2.AccessControl.*;
+import com.mycompany.app.week2.Code3.*;
 
 
 public class App {
     public static void main(String[] args) {
+        //
         Exercise1 ex = new Exercise1();
         Exercise4 ex2 = new Exercise4();
         Ex2 exc = new Ex2();
@@ -31,15 +26,13 @@ public class App {
         exTestSwitch ex5 = new exTestSwitch();
         exBreakContinue ex6 = new exBreakContinue();
         exBreakContinue exc6 = new exBreakContinue();
-        JavaMethods method = new JavaMethods();
+
         Book book = new Book();
         Book book2 = new Book("Thinking in java", "Bao ngoc", 1000);
         book2.in();
 
-
         Methods method = new Methods();
         Classes myObj = new Classes();
-
 
         ex.testIf();
         ex2.testWh();
@@ -50,10 +43,11 @@ public class App {
         exc6.testContinue();
         method.myMethod();
 
-        book.book();
-
         myObj.myObj();
 
+        Ex1 ex1 = new Ex1();
+        ex1.studentID = 10;
+        System.out.println("The student code is: " + ex1.studentID);
 
 
   }
