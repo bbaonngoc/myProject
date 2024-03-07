@@ -10,8 +10,18 @@ import com.mycompany.app.week1.Ex3;
 import com.mycompany.app.week1.Exercise4;
 import com.mycompany.app.week1.exTestSwitch;
 import com.mycompany.app.week1.exBreakContinue;
+<<<<<<< HEAD
 import com.mycompany.app.week2.Code3.Methods;
 import com.mycompany.app.week2.Code3.Classes;
+=======
+
+import com.mycompany.app.week2.JavaMethods;
+import com.mycompany.app.week2.Code1.ex1Code1;
+
+import com.mycompany.app.week2.Methods;
+import com.mycompany.app.week2.Classes;
+>>>>>>> 324aa1ebc9593917f62bd04979ed8aa8fcdd1024
+
 
 public class App {
     public static void main(String[] args) {
@@ -22,8 +32,12 @@ public class App {
         exTestSwitch ex5 = new exTestSwitch();
         exBreakContinue ex6 = new exBreakContinue();
         exBreakContinue exc6 = new exBreakContinue();
+        JavaMethods method = new JavaMethods();
+        ex1Code1 book = new ex1Code1();
+
         Methods method = new Methods();
         Classes myObj = new Classes();
+
 
         ex.testIf();
         ex2.testWh();
@@ -33,7 +47,11 @@ public class App {
         ex6.testBreak();
         exc6.testContinue();
         method.myMethod();
+
+        ex1Code1.book();
+
         myObj.myObj();
+
 
 
   }
