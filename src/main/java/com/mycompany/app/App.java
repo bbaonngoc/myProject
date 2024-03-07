@@ -15,8 +15,7 @@ import com.mycompany.app.week1.exTestSwitch;
 import com.mycompany.app.week1.exBreakContinue;
 
 import com.mycompany.app.week2.JavaMethods;
-import com.mycompany.app.week2.Code1.ex1Code1;
-
+import com.mycompany.app.week2.Code1.*;
 import com.mycompany.app.week2.Methods;
 import com.mycompany.app.week2.Classes;
 
@@ -31,7 +30,10 @@ public class App {
         exBreakContinue ex6 = new exBreakContinue();
         exBreakContinue exc6 = new exBreakContinue();
         JavaMethods method = new JavaMethods();
-        ex1Code1 book = new ex1Code1();
+        Book book = new Book();
+        Book book2 = new Book("Thinking in java", "Bao ngoc", 1000);
+        book2.in();
+
 
         Methods method = new Methods();
         Classes myObj = new Classes();
@@ -46,7 +48,7 @@ public class App {
         exc6.testContinue();
         method.myMethod();
 
-        ex1Code1.book();
+        book.book();
 
         myObj.myObj();
 
