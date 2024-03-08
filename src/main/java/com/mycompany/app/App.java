@@ -14,6 +14,7 @@ import com.mycompany.app.week1.exBreakContinue;
 import com.mycompany.app.week2.Code1.*;
 import com.mycompany.app.week2.Code2.AccessControl.*;
 import com.mycompany.app.week2.Code3.*;
+import static debug.Debug;
 
 
 public class App {
