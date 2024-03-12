@@ -4,6 +4,9 @@
  *---------------------------------------------------------------------------------------*/
 package com.mycompany.app;
 
+
+import com.mycompany.app.week2.Code2.AccessControl.*;
+import com.mycompany.app.week2.Code2.AccessControl.Ex6.*;
 import com.mycompany.app.week2.Code2.AccessControl.Ex3.Debug;
 import com.mycompany.app.week2.Code2.AccessControl.Ex3.Debugoff;
 
@@ -19,7 +22,19 @@ public class App extends Ex4{
 
       // exercise 4
       Ex4 exercise = new Ex4();
-      exercise.test();
+      // exercise.test();
+
+
+      // exercise 5 :
+      Ex5 ex5 = new Ex5();
+      // ex5.a; // error access
+      // ex5.b; // error access 
+      ex5.c = 10;
+      System.out.println(ex5.c);
+
+      // ex6
+      Class2 ex6 = new Class2();
+      ex6.test2();
 
   }
 }
