@@ -9,6 +9,7 @@ import com.mycompany.app.week2.Code2.AccessControl.*;
 import com.mycompany.app.week2.Code2.AccessControl.Ex6.*;
 import com.mycompany.app.week2.Code2.AccessControl.Ex3.Debug;
 import com.mycompany.app.week2.Code2.AccessControl.Ex3.Debugoff;
+import com.mycompany.app.week2.Code1.Time;
 
 public class App extends Ex4{
     public static void main(String[] args) {
