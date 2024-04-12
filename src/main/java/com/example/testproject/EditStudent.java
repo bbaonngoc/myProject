@@ -20,7 +20,7 @@ public class EditStudent {
     public DatePicker datePicker;
     public TextField tfGpa;
     @FXML
-    private TableView tableViewStudent;
+    private TableView<Student> tableViewStudent;
     @FXML
     private Button add;
 
@@ -31,10 +31,13 @@ public class EditStudent {
     private TextField gpa;
 
     @FXML
-    private MenuButton major;
+    private ComboBox<String> major;
 
     @FXML
     private Button remove;
+    public void initialize(){
+        major.getItems().addAll("Science Computer", "Software Engineering", "Artificial Intelligence");
+    }
 
     @FXML
     void add(ActionEvent event) {
@@ -57,17 +60,25 @@ public class EditStudent {
     void remove(ActionEvent event) {
 
     }
-
+    ObservableList<Student> students = FXCollections.observableArrayList();
     public void addStudentData() {
-        Student student = new Student();
+
         int id = Integer.parseInt(tfId.getText());
         String name = tfName.getText();
         // Lấy ngày được chọn
         LocalDate dateOfBirth = datePicker.getValue();
         float gpa = Float.parseFloat(tfGpa.getText());
 
-        ObservableList<Student> students = FXCollections.observableArrayList();
+        Student student = new Student();
+        student.setId(id);
+        student.setStudentName(name);
+        student.setDateOfBirth(dateOfBirth);
+        student.setMajor("Software Engineering");
+        student.setGpa(gpa);
+
         students.add(student);
+
+        tableViewStudent.setItems(students);
 
         for (Student u : students) {
             try {
@@ -82,7 +93,11 @@ public class EditStudent {
                 System.err.println("Error writing to file: " + e.getMessage());
             }
         }
-
-        tableViewStudent.setItems(students);
     }
+
+//    public void initialize() {
+//        tableViewStudent.setItems(students);
+//    }
+
+
 }
